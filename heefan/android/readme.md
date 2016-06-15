@@ -1,24 +1,21 @@
 # Googletest on Android
 
-Li Tian @ 14 Jun 2016
+heefan@14Jun2016
 
 ## Development Environment 
 
+```
 Android Studio 2.1.2
 Android API 8
 MacOSX 10.11.5
 Xcode 7.3.1
 android-ndk-r11c
+```
 
 ## Intent
 
 First time run googletest on Android, seek simplest sample to run it. 
 Reference from `android-ndk-r11c/sources/third_party/googletest`
-
-
-## Motivation
-MEDL project will be written in C, and support iOS and Android platform.
-I wish googletest can help us to do test/mock with same testing code on same testing framework.
 
 
 ## Steps
@@ -46,7 +43,7 @@ jni
 **Build**
 
 ```
-[litian@/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni] >>  (heefan/android)
+[heefan@/Users/heefan/heefan/github/googletest/heefan/android/GoogleTest/jni] >>  (heefan/android)
 $ndk-build
 [arm64-v8a] Compile++      : foo <= foo.cpp
 [arm64-v8a] SharedLibrary  : libfoo.so
@@ -69,7 +66,7 @@ $ndk-build
 **Run it**
 
 ```
-[litian@/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni] >>  (heefan/android)
+[heefan@/Users/heefan/heefan/github/googletest/heefan/android/GoogleTest/jni] >>  (heefan/android)
 $./run.sh
 896 KB/s (9332 bytes in 0.010s)
 2931 KB/s (255452 bytes in 0.085s)
