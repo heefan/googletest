@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ndk-build clean
+del log
+ndk-build 2>&1 | tee log

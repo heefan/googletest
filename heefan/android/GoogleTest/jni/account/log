@@ -1,0 +1,89 @@
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/Android.mk:3: ************************
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/Android.mk:4: JNI ==> Android.mk
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/Android.mk:5: ************************
+/Users/litian/bin/android-ndk-r11c/sources/third_party/googletest/Android.mk:29: ************************
+/Users/litian/bin/android-ndk-r11c/sources/third_party/googletest/Android.mk:30: gtest ==> Android.mk
+/Users/litian/bin/android-ndk-r11c/sources/third_party/googletest/Android.mk:31: ************************
+[armeabi] Compile++ thumb: AccountService <= Account.cpp
+[armeabi] Compile++ thumb: AccountService <= AccountService.cpp
+[armeabi] SharedLibrary  : libAccountService.so
+[armeabi] Install        : libAccountService.so => libs/armeabi/libAccountService.so
+[armeabi] Compile++ thumb: accountTest <= AccountServiceTest.cpp
+[armeabi] Compile++ thumb: accountTest <= Main.cpp
+[armeabi] Compile++ thumb: googletest_main <= gtest_main.cc
+[armeabi] StaticLibrary  : libgoogletest_main.a
+[armeabi] Compile++ thumb: googletest_static <= gtest-death-test.cc
+[armeabi] Compile++ thumb: googletest_static <= gtest-filepath.cc
+[armeabi] Compile++ thumb: googletest_static <= gtest-port.cc
+[armeabi] Compile++ thumb: googletest_static <= gtest-printers.cc
+[armeabi] Compile++ thumb: googletest_static <= gtest-test-part.cc
+[armeabi] Compile++ thumb: googletest_static <= gtest-typed-test.cc
+[armeabi] Compile++ thumb: googletest_static <= gtest.cc
+[armeabi] StaticLibrary  : libgoogletest_static.a
+[armeabi] Executable     : accountTest
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/AccountServiceTest.cpp:19: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::SetOwnerAndName(void const*, char const*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1529: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::UntypedInvokeWith(void const*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1077: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::GetHandleOf(testing::internal::ExpectationBase*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1077: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::GetHandleOf(testing::internal::ExpectationBase*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/internal/gmock-internal-utils.h:284: error: undefined reference to 'testing::internal::GetFailureReporter()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/internal/gmock-internal-utils.h:297: error: undefined reference to 'testing::internal::GetFailureReporter()'
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/AccountServiceTest.cpp:17: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::SetOwnerAndName(void const*, char const*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1529: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::UntypedInvokeWith(void const*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:797: error: undefined reference to 'testing::internal::g_gmock_mutex'
+/Users/litian/bin/android-ndk-r11c/sources/cxx-stl/gnu-libstdc++/4.9/include/ext/new_allocator.h:131: error: undefined reference to 'testing::Expectation::~Expectation()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1023: error: undefined reference to 'testing::AtLeast(int)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1028: error: undefined reference to 'testing::internal::ExpectationBase::CheckActionCountIfNotDone() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:899: error: undefined reference to 'testing::internal::ExpectationBase::CheckActionCountIfNotDone() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:904: error: undefined reference to 'testing::internal::ExpectationBase::~ExpectationBase()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1516: error: undefined reference to 'testing::internal::g_gmock_mutex'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1415: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::VerifyAndClearExpectationsLocked()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1416: error: undefined reference to 'testing::Mock::UnregisterLocked(testing::internal::UntypedFunctionMockerBase*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1418: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::~UntypedFunctionMockerBase()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1418: error: undefined reference to 'testing::internal::g_gmock_mutex'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1023: error: undefined reference to 'testing::AtLeast(int)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1028: error: undefined reference to 'testing::internal::ExpectationBase::CheckActionCountIfNotDone() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:899: error: undefined reference to 'testing::internal::ExpectationBase::CheckActionCountIfNotDone() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:904: error: undefined reference to 'testing::internal::ExpectationBase::~ExpectationBase()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1516: error: undefined reference to 'testing::internal::g_gmock_mutex'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1415: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::VerifyAndClearExpectationsLocked()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1416: error: undefined reference to 'testing::Mock::UnregisterLocked(testing::internal::UntypedFunctionMockerBase*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1418: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::~UntypedFunctionMockerBase()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1551: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::MockObject() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1551: error: undefined reference to 'testing::Mock::RegisterUseByOnCallOrExpectCall(void const*, char const*, int)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:894: error: undefined reference to 'testing::internal::ExpectationBase::ExpectationBase(char const*, int, std::string const&)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1560: error: undefined reference to 'testing::Expectation::Expectation(testing::internal::linked_ptr<testing::internal::ExpectationBase> const&)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1560: error: undefined reference to 'testing::Sequence::AddExpectation(testing::Expectation const&) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1560: error: undefined reference to 'testing::Expectation::~Expectation()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1564: error: undefined reference to 'testing::internal::g_gmock_implicit_sequence'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1551: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::MockObject() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1551: error: undefined reference to 'testing::Mock::RegisterUseByOnCallOrExpectCall(void const*, char const*, int)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:894: error: undefined reference to 'testing::internal::ExpectationBase::ExpectationBase(char const*, int, std::string const&)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1560: error: undefined reference to 'testing::Expectation::Expectation(testing::internal::linked_ptr<testing::internal::ExpectationBase> const&)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1560: error: undefined reference to 'testing::Sequence::AddExpectation(testing::Expectation const&) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1560: error: undefined reference to 'testing::Expectation::~Expectation()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1564: error: undefined reference to 'testing::internal::g_gmock_implicit_sequence'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1407: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::UntypedFunctionMockerBase()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1407: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::UntypedFunctionMockerBase()'
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/AccountServiceTest.cpp:17: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::RegisterOwner(void const*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1271: error: undefined reference to 'testing::internal::LogWithLocation(testing::internal::LogSeverity, char const*, int, std::string const&)'
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/AccountServiceTest.cpp:19: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::RegisterOwner(void const*)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1271: error: undefined reference to 'testing::internal::LogWithLocation(testing::internal::LogSeverity, char const*, int, std::string const&)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1173: error: undefined reference to 'testing::internal::Log(testing::internal::LogSeverity, std::string const&, int)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1603: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::Name() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1128: error: undefined reference to 'testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1133: error: undefined reference to 'testing::internal::ExpectationBase::FindUnsatisfiedPrerequisites(testing::ExpectationSet*) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1708: error: undefined reference to 'testing::internal::ExpectationBase::DescribeCallCountTo(std::ostream*) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1101: error: undefined reference to 'testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1200: error: undefined reference to 'testing::internal::ExpectationBase::DescribeCallCountTo(std::ostream*) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1209: error: undefined reference to 'testing::internal::ExpectationBase::RetireAllPreRequisites()'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1173: error: undefined reference to 'testing::internal::Log(testing::internal::LogSeverity, std::string const&, int)'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1603: error: undefined reference to 'testing::internal::UntypedFunctionMockerBase::Name() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1128: error: undefined reference to 'testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1133: error: undefined reference to 'testing::internal::ExpectationBase::FindUnsatisfiedPrerequisites(testing::ExpectationSet*) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1708: error: undefined reference to 'testing::internal::ExpectationBase::DescribeCallCountTo(std::ostream*) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1101: error: undefined reference to 'testing::internal::ExpectationBase::AllPrerequisitesAreSatisfied() const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1200: error: undefined reference to 'testing::internal::ExpectationBase::DescribeCallCountTo(std::ostream*) const'
+/Users/litian/bin/android-ndk-r11c/sources/third_party/gmock/include/gmock/gmock-spec-builders.h:1209: error: undefined reference to 'testing::internal::ExpectationBase::RetireAllPreRequisites()'
+/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/jni/Main.cpp:6: error: undefined reference to 'testing::InitGoogleMock(int*, char**)'
+collect2: error: ld returned 1 exit status
+make: *** [/Users/litian/heefan/github/googletest/heefan/android/GoogleTest/obj/local/armeabi/accountTest] Error 1
